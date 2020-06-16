@@ -14,6 +14,11 @@
 		2F10C38F249953D20094E466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10C38D249953D20094E466 /* Main.storyboard */; };
 		2F10C391249953D50094E466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F10C390249953D50094E466 /* Assets.xcassets */; };
 		2F10C394249953D50094E466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F10C392249953D50094E466 /* LaunchScreen.storyboard */; };
+		2F10C39C249957E80094E466 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10C39B249957E80094E466 /* ThirdViewController.swift */; };
+		2F10C39E249968350094E466 /* FirstChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10C39D249968350094E466 /* FirstChildViewController.swift */; };
+		2F10C3A0249968470094E466 /* SecondChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10C39F249968470094E466 /* SecondChildViewController.swift */; };
+		2F10C3A22499685B0094E466 /* ThirdChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10C3A12499685B0094E466 /* ThirdChildViewController.swift */; };
+		2F4739CE24996E7C00246D28 /* SecondChildsChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4739CD24996E7C00246D28 /* SecondChildsChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		2F10C390249953D50094E466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F10C393249953D50094E466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F10C395249953D50094E466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F10C39B249957E80094E466 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		2F10C39D249968350094E466 /* FirstChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChildViewController.swift; sourceTree = "<group>"; };
+		2F10C39F249968470094E466 /* SecondChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChildViewController.swift; sourceTree = "<group>"; };
+		2F10C3A12499685B0094E466 /* ThirdChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdChildViewController.swift; sourceTree = "<group>"; };
+		2F4739CD24996E7C00246D28 /* SecondChildsChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChildsChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +73,14 @@
 				2F10C389249953D20094E466 /* FirstViewController.swift */,
 				2F10C38B249953D20094E466 /* SecondViewController.swift */,
 				2F10C38D249953D20094E466 /* Main.storyboard */,
+				2F10C39B249957E80094E466 /* ThirdViewController.swift */,
+				2F10C39D249968350094E466 /* FirstChildViewController.swift */,
+				2F10C39F249968470094E466 /* SecondChildViewController.swift */,
+				2F10C3A12499685B0094E466 /* ThirdChildViewController.swift */,
 				2F10C390249953D50094E466 /* Assets.xcassets */,
 				2F10C392249953D50094E466 /* LaunchScreen.storyboard */,
 				2F10C395249953D50094E466 /* Info.plist */,
+				2F4739CD24996E7C00246D28 /* SecondChildsChildViewController.swift */,
 			);
 			path = ExampleTabbedApp;
 			sourceTree = "<group>";
@@ -143,8 +158,13 @@
 			files = (
 				2F10C38C249953D20094E466 /* SecondViewController.swift in Sources */,
 				2F10C38A249953D20094E466 /* FirstViewController.swift in Sources */,
+				2F10C39C249957E80094E466 /* ThirdViewController.swift in Sources */,
+				2F4739CE24996E7C00246D28 /* SecondChildsChildViewController.swift in Sources */,
 				2F10C386249953D20094E466 /* AppDelegate.swift in Sources */,
+				2F10C39E249968350094E466 /* FirstChildViewController.swift in Sources */,
 				2F10C388249953D20094E466 /* SceneDelegate.swift in Sources */,
+				2F10C3A0249968470094E466 /* SecondChildViewController.swift in Sources */,
+				2F10C3A22499685B0094E466 /* ThirdChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
